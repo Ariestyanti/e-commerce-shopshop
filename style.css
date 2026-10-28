@@ -1,0 +1,98 @@
+/* pengaturan umum */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    background-color: rgb(224, 216, 198);
+    color:rgb(49, 42, 42);
+}
+/* header */
+header{
+    background-color: rgb(248, 220, 180);
+    color:rgb(118, 91, 58);
+    text-align: center;
+    padding: 25px;
+}
+/* navbar */
+nav{
+    background-color:rgb(89, 73, 54);
+    text-align:center;
+    padding: 15px 20px;
+    gap: 20px;
+    border-radius: 8px;
+}
+nav a{
+    text-decoration: none;
+    color: bisque;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover{
+    color:rgb(193, 207, 232);
+    margin: 0 12px;
+    text-decoration: underline;
+}
+/* konten utama */
+main{
+    max-width: 1100px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+/* banner */
+.banner {
+    margin-bottom: 35px;
+}
+.tombol{
+    background-color: rgb(240, 217, 188);
+    color:rgb(86, 78, 78);
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+.tombol:hover{
+    background-color: rgb(230, 241, 205);
+}
+/* daftar produk */
+.daftar-produk{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.produk{
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgb(219, 204, 234);
+}
+.produk button{
+    background-color: rgb(249, 249, 199);
+    color:rgb(58, 56, 45);
+    border: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.produk button:hover{
+    background-color: rgb(229, 229, 177);
+}
+/* tentang dan kontak */
+.tentang,.kontak{
+    background-color:rgb(232, 174, 99);
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    background-color:rgb(89, 73, 54);
+    color:rgb(192, 187, 131);
+    text-align: center;
+    text-align: center;
+    padding: 25px;
+}
